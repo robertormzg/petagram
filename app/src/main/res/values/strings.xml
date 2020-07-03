@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Petagram</string>
-    <string name="btn_entrar">Entrar</string>
+    <string name="tv_favorito">0</string>
+    <string name="tv_nombre">Pet</string>
+    <string name="btn_favoritos">Favoritos</string>
+
 </resources>

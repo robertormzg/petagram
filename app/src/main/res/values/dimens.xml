@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nombre_pet">28dp</dimen>
+
+    <dimen name="margin_left_pet_info">20dp</dimen>
+    <dimen name="margin_right_pet_info">20dp</dimen>
+    <dimen name="corner_radius_card_view">4dp</dimen>
+    <dimen name="text_size_card_view">22sp</dimen>
+    <dimen name="like_image_size">38dp</dimen>
+    <dimen name="actionbar_elevation">4dp</dimen>
+    <dimen name="margin_button_float">35dp</dimen>
+
+</resources>
