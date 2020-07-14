@@ -8,9 +8,13 @@
         android:icon="@drawable/icons8_star_48"
         app:showAsAction="ifRoom"/>
     <item
-        android:id="@+id/btnMas"
-        android:title="@string/btn_favoritos"
+        android:id="@+id/btnContacto"
+        android:title="@string/btn_contacto"
         android:orderInCategory="100"
         app:showAsAction="never"/>
-
+    <item
+        android:id="@+id/btnAbout"
+        android:title="@string/btn_about"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
 </menu>

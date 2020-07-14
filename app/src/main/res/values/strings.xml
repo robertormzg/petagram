@@ -3,5 +3,11 @@
     <string name="tv_favorito">0</string>
     <string name="tv_nombre">Pet</string>
     <string name="btn_favoritos">Favoritos</string>
-
+    <string name="btn_contacto">Contacto</string>
+    <string name="btn_about">Acerca de</string>
+    <string name="texto_about">Acerca del desarrollador</string>
+    <string name="texto_placeholder_nombre">Nombre</string>
+    <string name="texto_placeholder_correo">Correo</string>
+    <string name="texto_placeholder_mensaje">Mensaje</string>
+    <string name="btn_enviar">Enviar comentario</string>
 </resources>

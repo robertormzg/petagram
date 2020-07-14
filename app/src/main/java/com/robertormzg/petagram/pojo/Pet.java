@@ -1,4 +1,4 @@
-package com.robertormzg.petagram;
+package com.robertormzg.petagram.pojo;
 
 public class Pet {
 

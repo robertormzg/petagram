@@ -11,5 +11,6 @@
     <dimen name="like_image_size">38dp</dimen>
     <dimen name="actionbar_elevation">4dp</dimen>
     <dimen name="margin_button_float">35dp</dimen>
+    <dimen name="size_images">160dp</dimen>
 
 </resources>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.robertormzg.petagram"
-    xmlns:dist="http://schemas.android.com/apk/distribution">
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.robertormzg.petagram">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <dist:module dist:instant="true" />
 
     <application
@@ -12,13 +13,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PetFavorito">
+        <activity android:name=".Contacto"
             android:parentActivityName=".MainActivity">
             <!-- Soporte para versiones 4.0 o menores -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity">
-            </meta-data>
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".About"
+            android:parentActivityName=".MainActivity">
+            <!-- Soporte para versiones 4.0 o menores -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".PetFavorito"
+            android:parentActivityName=".MainActivity">
+            <!-- Soporte para versiones 4.0 o menores -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
