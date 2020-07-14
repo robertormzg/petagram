@@ -6,11 +6,11 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 
-public class PageAdapter extends FragmentPagerAdapter {
+public class PageAdaptador extends FragmentPagerAdapter {
 
     private ArrayList<Fragment> fragments;
 
-    public PageAdapter(FragmentManager fm, ArrayList<Fragment> fragments) {
+    public PageAdaptador(FragmentManager fm, ArrayList<Fragment> fragments) {
         super(fm);
         this.fragments = fragments;
     }
