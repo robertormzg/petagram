@@ -2,7 +2,6 @@ package com.robertormzg.petagram.db;
 
 import android.content.ContentValues;
 import android.content.Context;
-import android.database.DatabaseUtils;
 
 import com.robertormzg.petagram.R;
 import com.robertormzg.petagram.pojo.Pet;
@@ -19,8 +18,7 @@ public class ConstructorPets {
 
     public ArrayList<Pet> obtenerDatos() {
         /*
-pets = new ArrayList<Pet>();
-
+        pets = new ArrayList<Pet>();
         pets.add(new Pet(R.drawable.pet_01,"Toby", "0"));
         pets.add(new Pet(R.drawable.pet_02,"Rocky", "0"));
         pets.add(new Pet(R.drawable.pet_03,"Max", "0"));
