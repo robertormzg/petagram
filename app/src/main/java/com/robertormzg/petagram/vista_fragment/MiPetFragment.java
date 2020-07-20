@@ -1,4 +1,4 @@
-package com.robertormzg.petagram.fragment;
+package com.robertormzg.petagram.vista_fragment;
 
 import android.os.Bundle;
 
@@ -50,17 +50,15 @@ public class MiPetFragment extends Fragment {
 
         circularImageView.setImageResource(R.drawable.pet_01);
 
-        fotos.add(new Pet(R.drawable.pet_01,"Toby", "24"));
-        fotos.add(new Pet(R.drawable.pet_01,"Toby", "22"));
-        fotos.add(new Pet(R.drawable.pet_01,"Toby", "20"));
-        fotos.add(new Pet(R.drawable.pet_01,"Toby", "18"));
-        fotos.add(new Pet(R.drawable.pet_01,"Toby", "16"));
-        fotos.add(new Pet(R.drawable.pet_01,"Toby", "12"));
-        fotos.add(new Pet(R.drawable.pet_01,"Toby", "10"));
-        fotos.add(new Pet(R.drawable.pet_01,"Toby", "8"));
-        fotos.add(new Pet(R.drawable.pet_01,"Toby", "6"));
-
-
+        fotos.add(new Pet(R.drawable.pet_01,"Toby", 10));
+        fotos.add(new Pet(R.drawable.pet_01,"Toby", 20));
+        fotos.add(new Pet(R.drawable.pet_01,"Toby", 30));
+        fotos.add(new Pet(R.drawable.pet_01,"Toby", 10));
+        fotos.add(new Pet(R.drawable.pet_01,"Toby", 20));
+        fotos.add(new Pet(R.drawable.pet_01,"Toby", 30));
+        fotos.add(new Pet(R.drawable.pet_01,"Toby", 10));
+        fotos.add(new Pet(R.drawable.pet_01,"Toby", 20));
+        fotos.add(new Pet(R.drawable.pet_01,"Toby", 30));
     }
 
     public void initAdapter() {

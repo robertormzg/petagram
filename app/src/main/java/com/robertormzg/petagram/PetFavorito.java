@@ -68,11 +68,11 @@ public class PetFavorito extends AppCompatActivity {
     public void inicializarListaPets() {
         pets = new ArrayList<Pet>();
 
-        pets.add(new Pet(R.drawable.pet_03,"Max", "0"));
-        pets.add(new Pet(R.drawable.pet_04,"Pancho", "0"));
-        pets.add(new Pet(R.drawable.pet_05,"Jack", "0"));
-        pets.add(new Pet(R.drawable.pet_06,"Zeus", "0"));
-        pets.add(new Pet(R.drawable.pet_07,"Firuláis", "0"));
+        pets.add(new Pet(R.drawable.pet_03,"Max", 0));
+        pets.add(new Pet(R.drawable.pet_04,"Pancho", 0));
+        pets.add(new Pet(R.drawable.pet_05,"Jack", 0));
+        pets.add(new Pet(R.drawable.pet_06,"Zeus", 0));
+        pets.add(new Pet(R.drawable.pet_07,"Firuláis", 0));
 
     }
 }

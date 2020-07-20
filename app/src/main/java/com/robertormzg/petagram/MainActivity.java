@@ -16,8 +16,8 @@ import android.widget.Toast;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 import com.robertormzg.petagram.adapter.PageAdaptador;
-import com.robertormzg.petagram.fragment.MiPetFragment;
-import com.robertormzg.petagram.fragment.RecyclerViewFragment;
+import com.robertormzg.petagram.vista_fragment.MiPetFragment;
+import com.robertormzg.petagram.vista_fragment.RecyclerViewFragment;
 
 import java.util.ArrayList;
 

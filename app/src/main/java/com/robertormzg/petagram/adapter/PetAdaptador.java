@@ -6,14 +6,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.robertormzg.petagram.db.ConstructorPets;
 import com.robertormzg.petagram.pojo.Pet;
 import com.robertormzg.petagram.R;
 
 import java.util.ArrayList;
+
 
 public class PetAdaptador extends RecyclerView.Adapter<PetAdaptador.PetViewHolder> {
 
@@ -38,16 +41,16 @@ public class PetAdaptador extends RecyclerView.Adapter<PetAdaptador.PetViewHolde
 
         petViewHolder.imgFotoPet.setImageResource(pet.getFoto());
         petViewHolder.tvNombreCV.setText(pet.getNombre());
-        petViewHolder.tvFavoritoCV.setText(pet.getFavorito());
+        petViewHolder.tvFavoritoCV.setText(pet.getFavorito() + "");
 
         PetViewHolder.btnLike.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int raiting = Integer.parseInt(pet.getFavorito());
-                raiting++;
+                Toast.makeText(activity, "Diste like a " + pet.getNombre(), Toast.LENGTH_SHORT).show();
 
-                petViewHolder.tvFavoritoCV.setText(raiting+"");
-                pet.setFavorito(raiting+"");
+                ConstructorPets constructorPets = new ConstructorPets(activity);
+                constructorPets.darLikePet(pet);
+                petViewHolder.tvFavoritoCV.setText(constructorPets.obtenerLikesPet(pet) + "");
             }
         });
 
@@ -57,7 +60,6 @@ public class PetAdaptador extends RecyclerView.Adapter<PetAdaptador.PetViewHolde
     public int getItemCount() {
         return pets.size();
     }
-
 
     public static class PetViewHolder extends RecyclerView.ViewHolder {
 

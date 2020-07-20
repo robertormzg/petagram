@@ -37,7 +37,7 @@ public class PicAdaptador extends RecyclerView.Adapter<PicAdaptador.PicViewHolde
         final Pet pet = pets.get(position);
 
         picViewHolder.imgFotoMiPet.setImageResource(pet.getFoto());
-        picViewHolder.tvFavoritoMiPet.setText(pet.getFavorito());
+        picViewHolder.tvFavoritoMiPet.setText(pet.getFavorito() + "");
 
     }
 
